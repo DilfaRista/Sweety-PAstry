@@ -311,3 +311,24 @@ footer {
 .footer-section p {
   margin: 5px 0;
 }
+
+
+
+.detil {
+  border-radius: 50px 0 50px 0;
+}
+
+.tulisan h2 {
+  font-size: 2rem;
+}
+
+.buton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buton button {
+  background-color: #606c38;
+  padding: 1rem 4rem;
+  font-size: larger;
+}

@@ -6,14 +6,13 @@ import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 
 function Product() {
-  return <div className="Product"></div>;
+  return <div className="Product">
+    <div className="App">
+      <Header />
+      <main>
+        <ProductList />
+      </main>
+    </div>;
+  </div>;
 }
-<div className="App">
-  <Header />
-  <main>
-    <ProductList />
-    <ProductCard />
-  </main>
-  <Footer />
-</div>;
 export default Product;

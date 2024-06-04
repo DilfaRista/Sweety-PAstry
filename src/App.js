@@ -7,6 +7,8 @@ import Beranda from './pages/Beranda';
 import Hampers from './pages/Hampers';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import HalamanPembelian from './pages/HalamanPembelian';
+import HalamanKeranjang from './pages/HalamanKeranjang';
 
 function App() {
   return (
@@ -24,6 +26,17 @@ function App() {
           <Route
             path="/Hampers"
             element={<Hampers />}
+          />
+          
+          <Route
+            path="/HalamanKeranjang"
+            element={<HalamanKeranjang />}
+          />
+
+          
+          <Route
+            path="/HalamanPembelian"
+            element={<HalamanPembelian />}
           />
         </Routes>
         <Footer />
